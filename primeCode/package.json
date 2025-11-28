@@ -1,0 +1,15 @@
+{
+  "name": "primecode",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": ["frontend", "server"],
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "preview:frontend": "npm --prefix frontend run preview",
+    "lint:frontend": "npm --prefix frontend run lint",
+    "dev:server": "npm --prefix server run dev",
+    "start:server": "npm --prefix server start",
+    "lint:server": "npm --prefix server run lint"
+  }
+}
